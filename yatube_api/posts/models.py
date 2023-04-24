@@ -68,6 +68,10 @@ class Follow(models.Model):
 
     class Meta:
         ordering = ['following']
+        constraints = [
+            models.UniqueConstraint(fields=['user', 'following'],
+                                    name='user_following_unique')
+        ]
 
     def __str__(self):
         return self.user

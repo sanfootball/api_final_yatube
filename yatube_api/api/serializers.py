@@ -14,7 +14,6 @@ class GroupSerializer(serializers.ModelSerializer):
 class PostSerializer(serializers.ModelSerializer):
     author = serializers.SlugRelatedField(slug_field='username',
                                           read_only=True)
-    # group = serializers.SlugRelatedField(slug_field='id', read_only=True)
 
     class Meta:
         fields = ('id', 'author', 'text', 'pub_date', 'image', 'group')
