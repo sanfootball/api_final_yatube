@@ -133,4 +133,5 @@ API возвращает список с пагинацией:
 ## Разработчик проекта
 
 Автор: Александр Трубников  
-E-mail: petrovskii1980@mail.ru
+E-mail: petrovskii1980@mail.ru  
+Telegram: 
