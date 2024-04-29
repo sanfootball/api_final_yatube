@@ -134,4 +134,4 @@ API возвращает список с пагинацией:
 
 Автор: Александр Трубников  
 E-mail: petrovskii1980@mail.ru  
-Telegram: 
+Telegram: https://t.me/sanfootball
